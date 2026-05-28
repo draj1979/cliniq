@@ -26,7 +26,7 @@ export function PatientInsight() {
           className="ml-3 text-[11px] tracking-[-0.01em] text-fg3"
           style={{ fontFamily: "var(--font-mono)" }}
         >
-          app.cliniq.com/p/okafor-r
+          app.cliniq.com/p/iyer-r
         </span>
       </div>
 
