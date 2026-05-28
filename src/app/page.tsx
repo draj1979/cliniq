@@ -57,7 +57,7 @@ const DETAIL_ITEMS = [
   {
     Icon: Book,
     title: "Guideline-aware",
-    body: "Maps recommendations to ADA, GOLD, KDIGO, and more. ClinIQ knows the difference between a current guideline and an old habit.",
+    body: "Maps recommendations to ICMR, ADA, GOLD, and KDIGO guidelines. ClinIQ knows the difference between a current guideline and an old habit.",
   },
   {
     Icon: Settings,
@@ -67,14 +67,14 @@ const DETAIL_ITEMS = [
   {
     Icon: Shield,
     title: "Private by architecture",
-    body: "Records, prompts, and outputs are siloed per patient and per practice. HIPAA-aligned by design, not by policy.",
+    body: "Records, prompts, and outputs are siloed per patient and per practice. DPDP Act-aligned by design, not by policy.",
   },
 ];
 
 const TIERS = [
   {
     name: "Solo",
-    price: "$129",
+    price: "₹2,999",
     per: "/ clinician / mo",
     desc: "For solo practitioners and 2–3 provider clinics.",
     features: [
@@ -88,7 +88,7 @@ const TIERS = [
   },
   {
     name: "Practice",
-    price: "$299",
+    price: "₹6,999",
     per: "/ clinician / mo",
     desc: "For group and multi-specialty practices up to 50 providers.",
     features: [
@@ -191,7 +191,7 @@ export default function Home() {
                 Watch the product tour
                 <ChevronRight size={14} />
               </button>
-              <span className="text-[13px] text-fg3">14-day trial · HIPAA-ready</span>
+              <span className="text-[13px] text-fg3">14-day trial · DPDP-ready</span>
             </div>
           </div>
 
@@ -516,7 +516,7 @@ export default function Home() {
             not seats.
           </h2>
           <p className="mt-5 text-[17px] leading-[1.6] text-fg2">
-            All tiers include unlimited patients, EHR sync, and HIPAA / SOC&nbsp;2 Type&nbsp;II controls.
+            All tiers include unlimited patients, EHR sync, and DPDP&nbsp;Act / SOC&nbsp;2 Type&nbsp;II controls.
           </p>
         </div>
 
@@ -647,7 +647,7 @@ export default function Home() {
             { h: "Product", items: ["Synthesis", "Documentation", "Safety checks", "Integrations", "Changelog"] },
             { h: "Solutions", items: ["Primary care", "Cardiology", "Endocrinology", "Pediatrics", "Hospital medicine"] },
             { h: "Company", items: ["About", "Customers", "Careers", "Press", "Contact"] },
-            { h: "Resources", items: ["Documentation", "Security", "Trust center", "HIPAA", "API"] },
+            { h: "Resources", items: ["Documentation", "Security", "Trust center", "DPDP Act", "API"] },
           ].map((col) => (
             <div key={col.h}>
               <div
@@ -681,7 +681,7 @@ export default function Home() {
             <div className="flex gap-5">
               <a href="#">Terms</a>
               <a href="#">Privacy</a>
-              <a href="#">BAA</a>
+              <a href="#">DPA</a>
               <a href="#">Cookies</a>
             </div>
           </div>
